@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" type="module" defer></script>
+    <title>Valorant : Randomizer Tool - Skins</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="web-name">Valorant Randomizer : Skins</div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./agents.html">AGENTS</a></li>
+                <li><a href="./weapons.html">WEAPONS</a></li>
+                <li><a href="./skins.html">SKINS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="welcome-content">
+        <div class="normal-text large">valorant Skin randomizer</div>
+        <div class="random-menu">
+            <div class="header">
+                <div id="name-skin" class="agent-name">Skin</div>
+                <div class="dropdown" data-dropdown>
+                    <div class="type-display">
+                        <button class="link" data-dropdown-button>Skin Filter</button>
+                        <div class="type-text" data-agent-skin>Skin Tier</div>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-items">
+                            <div class="dropdown-heading" data-agent-type>Skin Tier</div>
+                            <button class="dropdown-button" skin-selector-button>Duelist</button>
+                            <button class="dropdown-button" skin-selector-button>Initiator</button>
+                            <button class="dropdown-button" skin-selector-button>Controller</button>
+                            <button class="dropdown-button" skin-selector-button>Sentinel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scrolling-image">
+                <img id="image-skin" src="./images/skin.jpg" alt="">
+            </div>
+            <button id="skin-button" class="random-button">Random</button>
+        </div>
+    </div>
+</body>
+</html>

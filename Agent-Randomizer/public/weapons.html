@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" type="module" defer></script>
+    <title>Valorant : Randomizer Tool - Agents</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="web-name">Valorant Randomizer : AGENTS</div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./agents.html">AGENTS</a></li>
+                <li><a href="./weapons.html">WEAPONS</a></li>
+                <li><a href="./skins.html">SKINS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="welcome-content">
+        <div class="normal-text large">valorant weapon randomizer</div>
+        <div class="random-menu">
+            <div class="header">
+                <div id="name-weapon" class="agent-name">WEAPON</div>
+                <div class="dropdown" data-dropdown>
+                    <div class="type-display">
+                        <button class="link" data-dropdown-button>Weapon Filter</button>
+                        <div class="type-text" data-weapon-type>Weapon Type</div>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-items">
+                            <div class="dropdown-heading" data-weapon-type>Weapon Type</div>
+                            <button class="dropdown-button" type-selector-button>Pistol</button>
+                            <button class="dropdown-button" type-selector-button>SMG</button>
+                            <button class="dropdown-button" type-selector-button>Shotgun</button>
+                            <button class="dropdown-button" type-selector-button>Rifle</button>
+                            <button class="dropdown-button" type-selector-button>Heavy</button>
+                            <button class="dropdown-button" type-selector-button>Sniper</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scrolling-image">
+                <img id="image-weapon" src="./images/weapon.jpg" alt="">
+            </div>
+            <button id="weapon-button" class="random-button">Random</button>
+        </div>
+    </div>
+</body>
+</html>
